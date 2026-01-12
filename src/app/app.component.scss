@@ -1,0 +1,100 @@
+.home-container {
+  padding: 0;
+}
+
+.section {
+  padding: 4rem 2rem;
+}
+
+.section-alt {
+  background: #f8fafc;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2.5rem;
+}
+
+.hero-section {
+  min-height: 80vh;
+  padding: 4rem 2rem;
+  background: linear-gradient(135deg, #eef2ff, #f8fafc);
+}
+
+.hero-title {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.hero-title span {
+  color: #4f46e5;
+}
+
+.hero-subtitle {
+  font-size: 1.1rem;
+  margin-top: 1rem;
+  color: #475569;
+}
+
+.hero-icon {
+  font-size: 12rem;
+  color: #4f46e5;
+}
+
+.card {
+  background: white;
+  border-radius: 14px;
+  padding: 2rem;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.06);
+  height: 100%;
+}
+
+.servicio-card {
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.servicio-card:hover {
+  transform: translateY(-6px);
+}
+
+.servicio-icon {
+  font-size: 3rem;
+  color: #4f46e5;
+  margin-bottom: 1rem;
+}
+
+.value-item {
+  text-align: center;
+  font-weight: 500;
+}
+
+.value-icon {
+  font-size: 2.5rem;
+  color: #16a34a;
+  margin-bottom: 0.5rem;
+}
+
+.proceso {
+  text-align: center;
+}
+
+.paso-numero {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: #4f46e5;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 0.75rem;
+}
+
+.cta-section {
+  padding: 4rem 2rem;
+  background: linear-gradient(135deg, #4f46e5, #6366f1);
+  color: white;
+}
